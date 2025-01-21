@@ -116,6 +116,21 @@
     - 4.8.1. Herança
     - 4.8.2. Agregação
     - 4.8.3. Composição
+- 5 Documentação 
+  - 5.1 Diagrama de classes 
+  - 5.2 Documentação de API 
+    - 5.2.1 Swagger 
+    - 5.2.2 Postman 
+    - 5.2.3 Insomnia 
+- 6 Padrão de desenvolvimento MVC 
+  - 6.1 Definição 
+  - 6.2 Aplicabilidade 
+  - 6.3 Design patterns 
+- 7 Frameworks 
+  - 7.1 Definição 
+  - 7.2 Modelos e tipos 
+  - 7.3 Instalação e configuração 
+  - 7.4 Criação de projetos utilizando framework
 - 8 Persistência de dados
   - 8.1. Conexão com base de dados
   - 8.2 CRUD

@@ -33,10 +33,10 @@
 - 11 Pesquisar em diversas fontes de informação tendo em vista as melhores práticas de mercado considerando, inclusive, a performance e a qualidade de software  
 
 ### Capacidades Socioemocionais
-- 1 Demonstrar autogestão
-- 2 Demonstrar pensamento analítico
-- 3 Demonstrar inteligência emocional
-- 6 Trabalhar em equipe 
+  - 1 Demonstrar autogestão
+  - 2 Demonstrar pensamento analítico
+  - 3 Demonstrar inteligência emocional
+  - 6 Trabalhar em equipe 
 
 ## Conhecimentos
 - 1 Qualidade de software

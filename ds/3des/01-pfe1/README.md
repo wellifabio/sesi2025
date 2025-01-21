@@ -2,8 +2,7 @@
 
 |Objetivo:|
 |-|
-|Desenvolver capacidades técnicas e socioemocionais que permitem desenvolver
-interfaces web, otimizando a interação com o usuário.|
+|Desenvolver capacidades técnicas e socioemocionais que permitem desenvolver interfaces web, otimizando a interação com o usuário.|
 
 - Carga Horária (**Mínimo 75%** de Frequência)
 
