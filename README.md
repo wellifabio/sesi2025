@@ -38,7 +38,7 @@ Os códigos fonte, exemplos e materiais didáticos serão adicionados a este rep
 
 ## GitHub dos outros professores do SENAI Jaguariúna
 - [Lucas Paiva](https://github.com/lucasPaiva00)
-- [Luis Fernando](luisfernandospoljaric)
+- [Luis Fernando](https://github.com/luisfernandospoljaric)
 - [Reenye](https://github.com/ReenyeLima)
 - [Robson](https://github.com/robsonbsouzaa)
 
