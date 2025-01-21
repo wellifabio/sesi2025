@@ -14,16 +14,16 @@ Não necessáriamente as aulas seguirão esta ordem, mas a proposta é que sejam
 ||Intervalo|||
 |09:15|LOP|3|11:30|
 |11:30|Almoço||13:15|
-|13:15|SOP|2|14:45|
+|13:15|AITO|2|14:45|
 ||Intervalo|||
-|15:00|SOP|3|17:15|
+|15:00|AITO|3|17:15|
 
 ### Segundo dia da semana
 |Início|Matéria|Aulas|Fim|
 |-|:-:|:-:|:-:|
-|07:30|AITO|2|09:00|
+|07:30|SOP|2|09:00|
 ||Intervalo|||
-|09:15|AITO|3|11:30|
+|09:15|SOP|3|11:30|
 |11:30|Almoço||13:15|
 |13:15|SOP|1|14:00|
 |14:00|LER|1|14:45|
