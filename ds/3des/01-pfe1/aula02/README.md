@@ -17,3 +17,7 @@
 ## Demonstração
 - 1 Desenvolva uma UI(interface) Web de uma calculadora IMC junto ao seu professor. Mostre o resultado no final.
     - ex01
+
+![alt text](image.png)
+
+- O objetivo dessa atividade é a manipulação do DOM e a lógica.
