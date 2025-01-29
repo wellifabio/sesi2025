@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+}
+
+main {
+    padding-top: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & .container {
+        background: #FFFFFF url("img/panda1.webp") ;
+        width: 250px;
+        border: 1px black;
+        
+        border-radius: 0.5vw;
+        padding: 5vw;
+
+        & input,
+        button {
+            padding: 1vw;
+            margin: 0.2vw;
+            width: 60%;
+        }
+
+        & button {
+            background: brown;
+            color: white;
+            border-radius: 0.5vw;
+            border: none;
+
+        }
+
+    }
+
+}
+
+#resultado{
+    color: white;
+}
