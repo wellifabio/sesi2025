@@ -19,7 +19,7 @@
 - O objetivo dessa atividade é a manipulação do DOM e a lógica.
 
 Exercicio 063
-Altere o programa anterior para que ele aceite apenas números entre 0 e 1000.
+Faça um programa para que ele aceite apenas números entre 0 e 1000.
 
 Exercicio 065
 Faça um programa que peça um número inteiro e determine se ele é ou não um número primo. Um número primo é aquele que é divisível somente por ele mesmo e por 1.
