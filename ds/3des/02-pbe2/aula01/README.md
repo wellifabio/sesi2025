@@ -77,3 +77,4 @@
 - 9 Uma loja está fazendo uma promoção e precisa de ajuda no momento da venda, para liberar os descontos. Baseado na peça, calcule o desconto e exiba o valor final da venda. (camisa - 20% de desconto, bermuda - 10% de desconto, calça - 15% de desconto).
 
 - Link para enviar o formulário: https://forms.gle/V3xt73pKxjrMdgr49
+- [Exemplo de entrega via github](https://github.com/wellifabio/lista-pbe1-01-2025.git)
