@@ -74,24 +74,6 @@
             <button onclick="exemplo()">Obter desconto</button>
             <p id="resultado0"></p>
         </div>
-        <div id="exp1">
-            <h2>Cálculo de desconto</h2>
-            <input type="number" step="0.01" id="preco" placeholder="Preço">
-            <button onclick="exemplo()">Obter desconto</button>
-            <p id="resultado0"></p>
-        </div>
-        <div id="exp1">
-            <h2>Cálculo de desconto</h2>
-            <input type="number" step="0.01" id="preco" placeholder="Preço">
-            <button onclick="exemplo()">Obter desconto</button>
-            <p id="resultado0"></p>
-        </div>
-        <div id="exp1">
-            <h2>Cálculo de desconto</h2>
-            <input type="number" step="0.01" id="preco" placeholder="Preço">
-            <button onclick="exemplo()">Obter desconto</button>
-            <p id="resultado0"></p>
-        </div>
     </body>
     <script src="index.js"></script>
     </html>
