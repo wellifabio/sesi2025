@@ -58,43 +58,43 @@
     - Na pasta web crie a interface **Front-End** para consumir o endpoint criado. Separe os códigos em três arquivos: index.html, style.css e script.js:
     - index.html
     ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de exercícios</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1 id="titulo"></h1>
-    <div id="exp1">
-        <h2>Cálculo de desconto</h2>
-        <input type="number" step="0.01" id="preco" placeholder="Preço">
-        <button onclick="exemplo()">Obter desconto</button>
-        <p id="resultado0"></p>
-    </div>
-    <div id="exp1">
-        <h2>Cálculo de desconto</h2>
-        <input type="number" step="0.01" id="preco" placeholder="Preço">
-        <button onclick="exemplo()">Obter desconto</button>
-        <p id="resultado0"></p>
-    </div>
-    <div id="exp1">
-        <h2>Cálculo de desconto</h2>
-        <input type="number" step="0.01" id="preco" placeholder="Preço">
-        <button onclick="exemplo()">Obter desconto</button>
-        <p id="resultado0"></p>
-    </div>
-    <div id="exp1">
-        <h2>Cálculo de desconto</h2>
-        <input type="number" step="0.01" id="preco" placeholder="Preço">
-        <button onclick="exemplo()">Obter desconto</button>
-        <p id="resultado0"></p>
-    </div>
-</body>
-<script src="index.js"></script>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lista de exercícios</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="titulo"></h1>
+        <div id="exp1">
+            <h2>Cálculo de desconto</h2>
+            <input type="number" step="0.01" id="preco" placeholder="Preço">
+            <button onclick="exemplo()">Obter desconto</button>
+            <p id="resultado0"></p>
+        </div>
+        <div id="exp1">
+            <h2>Cálculo de desconto</h2>
+            <input type="number" step="0.01" id="preco" placeholder="Preço">
+            <button onclick="exemplo()">Obter desconto</button>
+            <p id="resultado0"></p>
+        </div>
+        <div id="exp1">
+            <h2>Cálculo de desconto</h2>
+            <input type="number" step="0.01" id="preco" placeholder="Preço">
+            <button onclick="exemplo()">Obter desconto</button>
+            <p id="resultado0"></p>
+        </div>
+        <div id="exp1">
+            <h2>Cálculo de desconto</h2>
+            <input type="number" step="0.01" id="preco" placeholder="Preço">
+            <button onclick="exemplo()">Obter desconto</button>
+            <p id="resultado0"></p>
+        </div>
+    </body>
+    <script src="index.js"></script>
+    </html>
     ```
     - style.css
     ```css
@@ -134,29 +134,29 @@
     ```
     - index.js
     ```javascript
-const titulo = document.getElementById('titulo');
-fetch('http://localhost:4000/')
-    .then(resp => resp.json())
-    .then(resp => titulo.innerHTML = resp);
-
-function exemplo(){
-    let resultado = document.getElementById('resultado0');
-    let dados = {
-        preco : Number(document.getElementById('preco').value)
+    const titulo = document.getElementById('titulo');
+    fetch('http://localhost:4000/')
+        .then(resp => resp.json())
+        .then(resp => titulo.innerHTML = resp);
+    
+    function exemplo(){
+        let resultado = document.getElementById('resultado0');
+        let dados = {
+            preco : Number(document.getElementById('preco').value)
+        }
+        fetch('http://localhost:4000/desconto',
+            {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(dados)
+            })
+        .then(resp => resp.json())
+        .then(resp => {
+            resultado.innerHTML = `Preço com desconto: R$ ${resp.precoComDesconto.toFixed(2)}`;
+        });
     }
-    fetch('http://localhost:4000/desconto',
-        {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(dados)
-        })
-    .then(resp => resp.json())
-    .then(resp => {
-        resultado.innerHTML = `Preço com desconto: R$ ${resp.precoComDesconto.toFixed(2)}`;
-    });
-}
     ```
     - Abra o arquivo index.html no navegador ou utilizando o Live Server e teste o cálculo do desconto.
     ![Exp1](./exp1.png)
