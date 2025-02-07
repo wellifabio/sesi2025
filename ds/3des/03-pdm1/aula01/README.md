@@ -29,3 +29,15 @@ Em grupos, crie um quiz sobre com pelo menos 10 questões sobre um dos temas a s
 - Química
 - Física
 - Espanhol
+
+|Alunos|Tema|
+|-|-|
+|Duda Silva, Milena, João|Biologia|
+|Isabelle, Matheus Neves|Biologia|
+|Zanon, Marcos, Araújo, Lucas G|Geografia|
+|Laila, Bia|História|
+|Dahra, Pedro, Duda Berto, Emily, Nicole|Espanhol e História|
+|Olavo e Kauê|Espanhol|
+|Mirian, Heloisa, Lohaine, Gabriela, Maria Clara|Inglês e Geografia|
+|Canina, Henrico, Hasman, Leonardo, Stafocher|Física e Inglês|
+|Menegon, Eloá|Física|
