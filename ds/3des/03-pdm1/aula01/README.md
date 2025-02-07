@@ -48,3 +48,9 @@ Em grupos com até 4 componentes, crie um quiz com pelo menos 10 questões, vár
 - Arquivo .aia (Projeto) exportar o arquivo neste formato para enviar para o professor via github
 - Arquivo .apk (Aplicativo) Versão para instalar no celular do desenvolvedor
 - Connection QR Code (Aplicativo) Versão para instalar no celular do desenvolvedor. Utiliza o QR Code para conectar com o App Inventor
+
+## Ambiente de Desenvolvimento Local
+Enquanto desenvolvemos o desafio, vamos baixar e instalar nosso ambiente local.
+- [Emulador para o App Inventor](https://appinventor.mit.edu/explore/ai2/setup-emulator) NoCode
+- [Flutter](https://flutter.dev/docs/get-started/install) Code
+- [Android Studio](https://developer.android.com/studio/install?hl=pt-br#windows) Code
