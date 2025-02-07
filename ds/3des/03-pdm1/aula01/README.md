@@ -1,10 +1,10 @@
 # Aula01 - Programação Mobile
 
 ## Ambientes DEV
-- NoCode Low Code
+- NoCode Low Code (web)
     - Mit - App vinventor
     - Kodular
-- Code
+- Code (Local)
     - Android Studio
     - Flutter
         - Dart
