@@ -305,3 +305,33 @@ fetch('http://localhost:4000/clientes')
     });
 });
 ```
+## Testes unitários
+Vamos realizar testes e se encontrarmos erro vamos corrigir.
+
+- Teste 1: Cadastrar um cliente
+    - Note que a data aceita qualquer tipo de valor
+    - Verifique que no banco de dados o campo nascimento é do tipo VARCHAR
+    - Altere o campo nascimento para DATE
+    ```sql
+    ALTER TABLE clientes MODIFY COLUMN nascimento DATE;
+    ```
+    - Porém como já tem dados cadastrado apresentará erro, então vamos apagar a tabela e criar novamente
+    ```sql
+    DROP TABLE clientes;
+    CREATE TABLE clientes(
+        id_cliente INTEGER PRIMARY KEY AUTO_INCREMENT,
+        nome VARCHAR(255) NOT NULL,
+        cpf VARCHAR(255) NOT NULL,
+        nascimento DATE NOT NULL
+    );
+    ```
+- Teste 2: Agora a data está correta porem está mostrando no front-end também a hora
+    - Altere no front-end a data para mostrar apenas a data
+    ```js
+    linha.innerHTML = `
+        <td>${cliente.id_cliente}</td>
+        <td>${cliente.nome}</td>
+        <td>${cliente.cpf}</td>
+        <td>${cliente.nascimento.split('T')[0]}</td>
+    `;
+    ```
