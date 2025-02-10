@@ -97,6 +97,11 @@ function read(req, res) {
         }
     });
 }
+
+module.exports = {
+    create,
+    read
+}
 ```
 - routes.js
 ```js
