@@ -433,7 +433,7 @@ CREATE TABLE tarefas(
 O projeto será apresentado a turma na próxima segunda feira. com a possibilidade de ser apresentado também a turma A ou B do segundo ano.
 
 ## Instruções para entrega
-- 1 Em um repositorio do github chamado back-end-aula02 envie o seu projeto full-stack com as três pastas:
+- 1 Em um repositorio do github chamado **back-end-aula02** envie o seu projeto full-stack com as três pastas:
     - api
     - docs
     - web
