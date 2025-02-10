@@ -425,7 +425,7 @@ CREATE TABLE tarefas(
     tarefa_id INTEGER PRIMARY KEY AUTO_INCREMENT,
     data DATE NOT NULL,
     tarefa VARCHAR(255) NOT NULL,
-    concluída BOOLEAN NOT NULL
+    progresso BOOLEAN NOT NULL
 );
 ```
 
