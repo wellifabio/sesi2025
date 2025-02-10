@@ -431,3 +431,12 @@ CREATE TABLE tarefas(
 
 ### Outro tema de acordo com sua criatividade, desde que seja um CRUD com apenas uma tabela no banco de dados.
 O projeto será apresentado a turma na próxima segunda feira. com a possibilidade de ser apresentado também a turma A ou B do segundo ano.
+
+## Instruções para entrega
+- 1 Em um repositorio do github chamado back-end-aula02 envie o seu projeto full-stack com as três pastas:
+    - api
+    - docs
+    - web
+- 2 Crie um arquivo README.md com a descrição do projeto, uma lista das tecnologias e um passo a passo de como testar.
+- 3 Envie o link do repositório no seguinte **[FORMS]()**
+- **[Exemplo de projeto full-stack visto em aula](https://github.com/wellifabio/back-end-aula02-2025.git)**
