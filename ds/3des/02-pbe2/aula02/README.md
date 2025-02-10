@@ -335,3 +335,6 @@ Vamos realizar testes e se encontrarmos erro vamos corrigir.
         <td>${cliente.nascimento.split('T')[0]}</td>
     `;
     ```
+    ![Resultado01](./listar01.png)
+- Teste 3: Agora vamos testar o cadastro de mais clientes
+    - Note que a data ficou isolada mas no padrão de banco de dados, coloquei a data no formato brasileiro
