@@ -337,7 +337,7 @@ Vamos realizar testes e se encontrarmos erro vamos corrigir.
     ```
     ![Resultado01](./listar01.png)
 - Teste 3: Agora vamos testar o cadastro de mais clientes
-    - Note que a data ficou isolada mas no padrão de banco de dados, coloquei a data no formato brasileiro.
+    - Note que a data ficou isolada mas no padrão de banco de dados. Coloque a data no formato brasileiro.
 - Teste 4: As mensagens de erro e sucesso aparecem via **alert**.
     - Para melhorar a UX(User experience) vamos alterar para aparecer no rodapé da tela e durar apenas 3 segundos.
     - No HTML rodapé da página coloque um id.
