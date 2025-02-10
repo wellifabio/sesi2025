@@ -360,3 +360,74 @@ Vamos realizar testes e se encontrarmos erro vamos corrigir.
 ## Desafio
 Desenvolva a funcionalidade de exclusão de cliente, acrescentando um botão em cada linha da tabela que ao ser clicado o cliente seja excluído.
 ![Excluir](./excluir.png)
+
+## Outros desafios
+Este projeto se iniciou com um banco de dados básico. Em outra aula incrementaremos mais funcionalidades e melhorias.<br>Para a aula de hoje, em grupos de até 3 alunos, desenvolva projetos com funcionalidades similares escolhendo um dos temas a seguir:
+
+### Tema1: Agenda de telefones
+```sql
+CREATE DATABASE agenda;
+USE agenda;
+
+CREATE TABLE telefones(
+    telefone_id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    telefone VARCHAR(20) NOT NULL,
+    nome VARCHAR(100) NOT NULL,
+    obs VARCHAR(255) 
+);
+```
+### Tema 02: Sistema de Gerenciamento de Produtos
+```sql
+CREATE DATABASE produtos;
+USE produtos;
+
+CREATE TABLE produtos(
+    produto_id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(255) NOT NULL,
+    valor decimal(10,2) NOT NULL,
+    descrição VARCHAR(255) NOT NULL
+);
+```
+
+### Tema 03: Sistema de Controle de Gastos
+```sql
+CREATE DATABASE gastos;
+USE gastos;
+
+CREATE TABLE gastos(
+    gasto_id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    data DATE NOT NULL,
+    valor decimal(10,2) NOT NULL,
+    descrição VARCHAR(255) NOT NULL
+);
+```
+
+### Tema 04: Registro de Feedbacks
+```sql
+CREATE DATABASE feedbacks;
+USE feedbacks;
+
+CREATE TABLE feedbacks(
+    feedback_id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    data DATE NOT NULL,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    feedback VARCHAR(255) NOT NULL
+);
+```
+
+### Tema 05: Sistema de Gerenciamento de Tarefas
+```sql
+CREATE DATABASE tarefas;
+USE tarefas;
+
+CREATE TABLE tarefas(
+    tarefa_id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    data DATE NOT NULL,
+    tarefa VARCHAR(255) NOT NULL,
+    concluída BOOLEAN NOT NULL
+);
+```
+
+### Outro tema de acordo com sua criatividade, desde que seja um CRUD com apenas uma tabela no banco de dados.
+O projeto será apresentado a turma na próxima segunda feira. com a possibilidade de ser apresentado também a turma A ou B do segundo ano.
