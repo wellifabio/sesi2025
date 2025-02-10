@@ -305,7 +305,7 @@ fetch('http://localhost:4000/clientes')
     });
 });
 ```
-## Testes unitários
+## Testes de ponta a ponta (Front-End, Back-End e Banco de dados)
 Vamos realizar testes e se encontrarmos erro vamos corrigir.
 
 - Teste 1: Cadastrar um cliente
