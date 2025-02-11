@@ -1,4 +1,4 @@
-# 2DES - Segundo Semestre
+# 3DES - Terceiro Semestre
 - [PFE1 (Programação Front-end 1)](./01-pfe1/)
 - [PBE2 (Programação Back-end 2)](./02-pbe2/)
 - [PDM1 (Programação para Dispositivos Moveis 1)](./03-pdm1/)
