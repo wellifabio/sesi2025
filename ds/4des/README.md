@@ -1,4 +1,4 @@
-# 2DES - Segundo Semestre
+# 4DES - Quarto Semestre
 - [IOT (Internet das Coisas)](./01-iot/)
 - [PFE2 (Programação Front-end 2)](./02-pfe2/)
 - [PDM2 (Programação para Dispositivos Moveis 2)](./03-pdm2/)
