@@ -164,5 +164,8 @@ A estrutura de pastas e arquivos do projeto de exemplo está representada na ima
     - 6% de aumento : salario Atual >= 3.000,00
 - 8 Crie feacture / funcionalidade que calcule a média de 3 notas do aluno e informe sua situação: (nota maior ou igual a 6 : aprovado), (nota inferior a 6 e maior ou igual a 4 : recuperação), (nota menor que 4 : reprovado).
 - 9 Uma loja está fazendo uma promoção e precisa de ajuda no momento da venda, para liberar os descontos. Baseado na peça, calcule o desconto e exiba o valor final da venda. (camisa - 20% de desconto, bermuda - 10% de desconto, calça - 15% de desconto).
-
-## [Exemplo de entrega](https://github.com/wellifabio/lista01-projetos-sesi-2025)
+## Instruções de entrega
+- Ao concluir o projeto enviar para um repositório público do github chamado **psof02-lista01**
+- Enviar o link do repositorio para o professor neste **[formulário](https://forms.gle/bt6jZpsPQPWGNr4J9)**
+- O repositório dever estar estruturado com arquivo README.md conforme exemplo a seguir:
+#### [Exemplo de entrega](https://github.com/wellifabio/lista01-projetos-sesi-2025)
