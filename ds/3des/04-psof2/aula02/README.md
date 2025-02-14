@@ -13,9 +13,17 @@ Você faz parte de uma equipe de desenvolvedores atuando como um dev fullstack e
 
 ### Requisitos
 1. O sistema deve permitir o cadastro de médicos
+    - Os médicos devem possuir os seguintes atributos:
+        - Id (Auto incremento)
+        - Nome - texto(255)
+        - CRM - texto(20)
+        - Especialidade -texto(255)
+        - Telefone - texto(20)
+        - Email - texto(255)
 2. O sistema deve permitir a edição de médicos
 3. O sistema deve permitir a exclusão de médicos
 4. O sistema deve permitir a listagem de médicos
+
 
 ### Tarefas
 1. Navegar até o [projeto no github](https://github.com/wellifabio/back-end-aula02-2025.git) do projeto e fazer o **fork** do repositório.
