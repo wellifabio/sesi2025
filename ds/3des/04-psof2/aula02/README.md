@@ -36,3 +36,11 @@ Você faz parte de uma equipe de desenvolvedores atuando como um dev fullstack e
 5. Implementar as rotas necessárias para acessar a nova UI e as funcionalidades de médicos no **backend** e arquivo **./src/controllers/medicos.js**
 6. No **front-end** Renomear os arquivos index.html para **pacientes.html** e script.js para **pacientes.js**
 7. Enviar as alterações para o seu repositório no github.
+
+### Observações
+- A pasta do projeto deve ficar semelhante a estrutura abaixo:
+- ![Pasta](./print-pasta.png)
+- A tela de cadastro de médicos:
+- ![Cadastro](./print-medicos.png)
+- A tela index.html, de cadastro de pacientes alterada para pacientes.html:
+- ![Pacientes](./print-pacientes.png)
