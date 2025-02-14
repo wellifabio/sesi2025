@@ -33,6 +33,6 @@ Você faz parte de uma equipe de desenvolvedores atuando como um dev fullstack e
 2. Clonar o repositório para a sua máquina local
 3. Seguir as instruções para executar o projeto.
 4. Implementar as funcionalidades de cadastro, edição, exclusão e listagem de médicos em uma nova UI chamada medicos.html
-5. Implementar as rotas necessárias para acessar a nova UI e as funcionalidades de médicos
-6. Renomear o arquivo index.html para pacientes.html
+5. Implementar as rotas necessárias para acessar a nova UI e as funcionalidades de médicos no **backend** e arquivo **./src/controllers/medicos.js**
+6. No **front-end** Renomear os arquivos index.html para **pacientes.html** e script.js para **pacientes.js**
 7. Enviar as alterações para o seu repositório no github.
