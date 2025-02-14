@@ -6,7 +6,7 @@
 10 Implementar as funcionalidades de acordo com os requisitos definidos
 11 Pesquisar em diversas fontes de informação tendo em vista as melhores práticas de mercado considerando, inclusive, a performance e a qualidade de software
  
-## Adicionando funcionalidades em um sistema em desenvolvimento
+## Adicionando funcionalidades em um sistema em desenvolvimento (Feactures)
 
 ### Contextualização
 Você faz parte de uma equipe de desenvolvedores atuando como um dev fullstack em um projeto de software. O projeto é um sistema de gerenciamento de consultas médicas. O sistema já possui algumas funcionalidades implementadas, como o cadastro de pacientes. Agora, você foi designado para implementar a funcionalidade de cadastro de médicos.
