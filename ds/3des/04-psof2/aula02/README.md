@@ -1,10 +1,10 @@
 # Aula02 - Projeto de Software
 
 ## Capacidades técnicas
-7 Definir os softwares a serem utilizados no desenvolvimento do sistema
-8 Definir as dependências de software considerando os componentes do sistema, para a sua implantação
-10 Implementar as funcionalidades de acordo com os requisitos definidos
-11 Pesquisar em diversas fontes de informação tendo em vista as melhores práticas de mercado considerando, inclusive, a performance e a qualidade de software
+- 7 Definir os softwares a serem utilizados no desenvolvimento do sistema
+- 8 Definir as dependências de software considerando os componentes do sistema, para a sua implantação
+- 10 Implementar as funcionalidades de acordo com os requisitos definidos
+- 11 Pesquisar em diversas fontes de informação tendo em vista as melhores práticas de mercado considerando, inclusive, a performance e a qualidade de software
  
 ## Adicionando funcionalidades em um sistema em desenvolvimento (Feactures)
 
