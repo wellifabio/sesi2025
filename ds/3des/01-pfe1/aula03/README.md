@@ -13,7 +13,7 @@ Criar interfaces interativas com **cards** e **listas**.
   - 7.2 Aplicação
   - 7.3 Usabilidade
 
-## Códigos da demonstração em [./renderizacao](./rederizacao/)
+## Códigos da demonstração de cards em [./renderizacao](./rederizacao/)
 - dados.json
 ```json
 [
@@ -39,6 +39,9 @@ Criar interfaces interativas com **cards** e **listas**.
 ```
 - Renderizado em cards com responsividade
 - ![Wireframe](./wireframe.png)
+
+### Exemplo da visualização em lista
+![Lista](./wireframe2.png)
 
 ## Desafio 01 - Cards
 - A: Renderize em uma página HTML em cards com as informações de produtos do arquivo **[produtos.json](./produtos.json)**, não é necessário que os cards contenham todas as informações do arquivo, mas é necessário que contenham a imagem, o nome e o preço do produto.
