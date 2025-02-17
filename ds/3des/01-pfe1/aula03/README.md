@@ -13,7 +13,7 @@ Criar interfaces interativas com **cards** e **listas**.
   - 7.2 Aplicação
   - 7.3 Usabilidade
 
-## [Demonstração](./renderizacao)
+## Códigos da demonstração em [./renderizacao](./rederizacao/)
 - dados.json
 ```json
 [
