@@ -49,3 +49,6 @@ Criar interfaces interativas com **cards** e **listas**.
 
 ## Desafio 02 - Lista
 - A: Renderize em outra página HTML em lista com as informações de produtos do arquivo **[produtos.json](./produtos.json)**, não é necessário que a lista contenha todas as informações do arquivo, mas é necessário que contenha o nome e o preço do produto.
+
+## Desafio 03 - UX (User Experience)
+- A: Para melhorar a experiência do usuário, crie uma nova página html agora chamada **index.html** adicione dois botões no cabeçalho, um para exibir em cards e outro para exibir em lista os produtos do arquivo **[produtos.json](./produtos.json)**.
