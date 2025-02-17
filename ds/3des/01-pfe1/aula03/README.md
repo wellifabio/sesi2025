@@ -58,3 +58,9 @@ Criar interfaces interativas com **cards** e **listas**.
 - Adicione o arquivo **README.md** com as informações do repositório.
 - Habilitar o GitHub Pages no repositório para a branch `master` que contem o arquivo index.html.
 - Enviar o link do github pages neste **[FORM](https://forms.gle/dX6Fns658eWhQeR67)**
+
+## Portfolio
+- Durante o ano passado iniciamos a criação de um Portfolio, porém com pouco conteúdo para acrescentar. Este ano, porém já temos pelo menos dois projetos para incluir.
+- Deixe seu Portfolio em produção com git Pages e envie o link neste **[FORM](https://forms.gle/nEvLDErezfuQmQtW6)**
+- Lembrando o nome do repositório deve ser o mesmo nome do seu usuário do GitHub.
+- exemplo: https://wellifabio.github.io
