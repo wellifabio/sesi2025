@@ -57,3 +57,4 @@ Criar interfaces interativas com **cards** e **listas**.
 - Crie um repositório público no GitHub chamado `web-aula03-ui-ux`.
 - Adicione o arquivo **README.md** com as informações do repositório.
 - Habilitar o GitHub Pages no repositório para a branch `master` que contem o arquivo index.html.
+- Enviar o link do github pages neste **[FORM](https://forms.gle/dX6Fns658eWhQeR67)**
