@@ -13,6 +13,33 @@ Criar interfaces interativas com **cards** e **listas**.
   - 7.2 Aplicação
   - 7.3 Usabilidade
 
+## [Demonstração](./renderizacao)
+- dados.json
+```json
+[
+    {
+        "id": 1,
+        "nome": "João",
+        "avatar": "https://img.cancaonova.com/cnimages/canais/uploads/sites/6/2003/10/formacao_o-rosto-mariano-do-pontificado-de-jpii.jpg",
+        "cidade": "São Paulo"
+    },
+    {
+        "id": 2,
+        "nome": "Maria",
+        "avatar": "https://praiaexpresso.com/wp-content/uploads/2024/01/m-02-2048.jpg?w=640",
+        "cidade": "Rio de Janeiro"
+    },
+    {
+        "id": 3,
+        "nome": "José",
+        "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBDEfo7VRQq6nHgv4vERG5VtZJzpPaYTZKbw&s",
+        "cidade": "Curitiba"
+    }
+]
+```
+- Renderizado em cards com responsividade
+- ![Wireframe](./wireframe.png)
+
 ## Desafio 01 - Cards
 - A: Renderize em uma página HTML em cards com as informações de produtos do arquivo **[produtos.json](./produtos.json)**, não é necessário que os cards contenham todas as informações do arquivo, mas é necessário que contenham a imagem, o nome e o preço do produto.
 - B: Adicione responsividade à página, de forma que os cards sejam exibidos em uma única coluna em telas menores e em até 4 colunas em telas maiores, para testar acrescente mais produtos ao JSON.
