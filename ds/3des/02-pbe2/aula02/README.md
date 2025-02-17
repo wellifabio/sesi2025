@@ -440,3 +440,8 @@ O projeto será apresentado a turma na próxima segunda feira. com a possibilida
 - 2 Crie um arquivo README.md com a descrição do projeto, uma lista das tecnologias e um passo a passo de como testar.
 - 3 Envie o link do repositório no seguinte **[FORMS](https://docs.google.com/forms/d/e/1FAIpQLSf8WHx5YrWwMxJsGicTDuGmDtv-XR1pJiNqOw15rauXZSJLEw/viewform?usp=header)**
 - **[Exemplo de projeto full-stack visto em aula](https://github.com/wellifabio/back-end-aula02-2025.git)**
+
+## Atividades no Forms do google:
+- Formulário com questões sobre Front-End: **[FORMS](https://docs.google.com/forms/d/e/1FAIpQLSe2KcyAYbJ1LtsxL8eX4cEyd8wVX7i9KBl4THbY3nVmHyn_3g/viewform)**
+
+- Formulário com questões sobre Back-End: **[FORMS](https://docs.google.com/forms/d/e/1FAIpQLSdg0DWGFXKT-NMz-UiBov6ubG98xTT46DtV16rbi__Z0_DX1Q/viewform?usp=dialog)**
