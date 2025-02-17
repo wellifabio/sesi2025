@@ -52,7 +52,7 @@ Criar interfaces interativas com **cards** e **listas**.
 
 ## Desafio 03 - UX (User Experience)
 - A: Para melhorar a experiência do usuário, crie uma nova página html agora chamada **index.html** adicione dois botões no cabeçalho, um para exibir em cards e outro para exibir em lista os produtos do arquivo **[produtos.json](./produtos.json)**.
-
+- ![Wireframe](./wireframe3.png)
 ## Entregas
 - Crie um repositório público no GitHub chamado `web-aula03-ui-ux`.
 - Adicione o arquivo **README.md** com as informações do repositório.
