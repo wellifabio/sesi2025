@@ -1,4 +1,4 @@
-# Aula03 - Exercícios de Layout e Lógica
+# Aula02 - Exercícios de Layout e Lógica
 
 |Layout|Lógica|
 |-|-|
