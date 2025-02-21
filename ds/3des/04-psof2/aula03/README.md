@@ -14,7 +14,7 @@ Dando continuidade ao projeto **Clínica Médica**, nesta aula vamos implementar
 
 - A tabela de consultas no banco de dados dever se relacionar com médicos e pacientes.
 
-- O coração do sistema será esta tela de agendamento de consultas, onde o usuário poderá selecionar o médico e o paciente, informar a data e hora e o motivo da consulta. o arquivo HTML deve ser o index.html e possuir links para pacientes.html e medicos.html
+- O coração do sistema será esta tela de agendamento de consultas, onde o usuário poderá selecionar o médico e o paciente, informar a data e hora e o motivo da consulta. o arquivo HTML deve ser o **index.html** e possuir links para pacientes.html e medicos.html
 
 - Ao agendar uma consulta o front-end deve filtrar e impedir datas retroativas.
 
