@@ -24,18 +24,18 @@ function excluir(id) {
     }
 }
 
-const cadastro = document.querySelector('#cadastro form');
-cadastro.addEventListener('submit', e => {
+const registrar = document.querySelector('#cadastro form');
+registrar.addEventListener('submit', e => {
     e.preventDefault();
     const atleta = {
         id: atletas.length + 1,
-        nome: cadastro.nome.value,
-        pais: cadastro.pais.value,
-        idade: Number(cadastro.idade.value),
-        altura: Number(cadastro.altura.value),
-        peso: Number(cadastro.peso.value),
-        modalidade: cadastro.modalidade.value,
-        foto: cadastro.foto.value
+        nome: registrar.nome.value,
+        pais: registrar.pais.value,
+        idade: Number(registrar.idade.value),
+        altura: Number(registrar.altura.value),
+        peso: Number(registrar.peso.value),
+        modalidade: registrar.modalidade.value,
+        foto: registrar.foto.value
     };
     atletas.push(atleta);
     window.localStorage.setItem('atletas', JSON.stringify(atletas));
