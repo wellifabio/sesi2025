@@ -64,6 +64,15 @@ main div {
     margin: 10px;
     box-shadow: 0 0 10px var(--pt2);
 
+    & div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+    }
+
     & img {
         width: 100%;
         border-radius: 10px;
