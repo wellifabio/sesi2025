@@ -17,7 +17,9 @@ atletas.forEach(atleta => {
 
 function excluir(id) {
     if(confirm('Realmente quer excluir o card '+id+' ?')) {
+        const indice = atletas.findIndex(atleta => atleta.id === id);
+        atletas.splice(indice, 1);
+        window.localStorage.setItem('atletas', JSON.stringify(atletas));
+        window.location.reload();
     }
 }
-
-window.localStorage.setItem('atletas', JSON.stringify(atletas));
