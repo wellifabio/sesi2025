@@ -1,95 +1,4 @@
-const atletas = [
-    {
-        "id": 1,
-        "nome": "Usain Bolt",
-        "pais": "Jamaica",
-        "idade": 34,
-        "altura": 1.95,
-        "peso": 94,
-        "modalidade": "100m rasos",
-        "foto": "https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/lmusmqtktq8slg9yl1xj"
-    },
-    {
-        "id": 2,
-        "nome": "Usain Bolt",
-        "pais": "Jamaica",
-        "idade": 34,
-        "altura": 1.95,
-        "peso": 94,
-        "modalidade": "100m rasos",
-        "foto": "https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/lmusmqtktq8slg9yl1xj"
-    },
-    {
-        "id": 3,
-        "nome": "Usain Bolt",
-        "pais": "Jamaica",
-        "idade": 34,
-        "altura": 1.95,
-        "peso": 94,
-        "modalidade": "100m rasos",
-        "foto": "https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/lmusmqtktq8slg9yl1xj"
-    },
-    {
-        "id": 4,
-        "nome": "Usain Bolt",
-        "pais": "Jamaica",
-        "idade": 34,
-        "altura": 1.95,
-        "peso": 94,
-        "modalidade": "100m rasos",
-        "foto": "https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/lmusmqtktq8slg9yl1xj"
-    },
-    {
-        "id": 5,
-        "nome": "Usain Bolt",
-        "pais": "Jamaica",
-        "idade": 34,
-        "altura": 1.95,
-        "peso": 94,
-        "modalidade": "100m rasos",
-        "foto": "https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/lmusmqtktq8slg9yl1xj"
-    },
-    {
-        "id": 6,
-        "nome": "Usain Bolt",
-        "pais": "Jamaica",
-        "idade": 34,
-        "altura": 1.95,
-        "peso": 94,
-        "modalidade": "100m rasos",
-        "foto": "https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/lmusmqtktq8slg9yl1xj"
-    },
-    {
-        "id": 7,
-        "nome": "Usain Bolt",
-        "pais": "Jamaica",
-        "idade": 34,
-        "altura": 1.95,
-        "peso": 94,
-        "modalidade": "100m rasos",
-        "foto": "https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/lmusmqtktq8slg9yl1xj"
-    },
-    {
-        "id": 8,
-        "nome": "Usain Bolt",
-        "pais": "Jamaica",
-        "idade": 34,
-        "altura": 1.95,
-        "peso": 94,
-        "modalidade": "100m rasos",
-        "foto": "https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/lmusmqtktq8slg9yl1xj"
-    },
-    {
-        "id": 9,
-        "nome": "Usain Bolt",
-        "pais": "Jamaica",
-        "idade": 34,
-        "altura": 1.95,
-        "peso": 94,
-        "modalidade": "100m rasos",
-        "foto": "https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/lmusmqtktq8slg9yl1xj"
-    }
-]
+const atletas = JSON.parse(window.localStorage.getItem('atletas'));
 
 const main = document.querySelector('main');
 atletas.forEach(atleta => {
@@ -107,5 +16,8 @@ atletas.forEach(atleta => {
 });
 
 function excluir(id) {
-    alert(id);
+    if(confirm('Realmente quer excluir o card '+id+' ?')) {
+    }
 }
+
+window.localStorage.setItem('atletas', JSON.stringify(atletas));
