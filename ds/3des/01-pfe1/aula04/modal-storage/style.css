@@ -79,7 +79,7 @@ main div {
     }
 }
 
-#modal{
+.modal {
     width: 100vw;
     height: 100vh;
     background-color: var(--pt1);
@@ -92,6 +92,23 @@ main div {
     z-index: 100;
 }
 
+.janela {
+    width: 50%;
+    height: 50%;
+    background-color: var(--p4);
+    color: var(--p1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px var(--pt2);
+}
+
+.oculta{
+    display: none;
+}
+
 @media screen and (max-width: 800px) {
     main {
         width: 100%;
@@ -99,5 +116,9 @@ main div {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .janela {
+        width: 100%;
     }
 }
