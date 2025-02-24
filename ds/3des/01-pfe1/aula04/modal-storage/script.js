@@ -10,7 +10,7 @@ const atletas = [
         "foto": "https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/lmusmqtktq8slg9yl1xj"
     },
     {
-        "id": 1,
+        "id": 2,
         "nome": "Usain Bolt",
         "pais": "Jamaica",
         "idade": 34,
@@ -20,7 +20,7 @@ const atletas = [
         "foto": "https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/lmusmqtktq8slg9yl1xj"
     },
     {
-        "id": 1,
+        "id": 3,
         "nome": "Usain Bolt",
         "pais": "Jamaica",
         "idade": 34,
@@ -30,7 +30,7 @@ const atletas = [
         "foto": "https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/lmusmqtktq8slg9yl1xj"
     },
     {
-        "id": 1,
+        "id": 4,
         "nome": "Usain Bolt",
         "pais": "Jamaica",
         "idade": 34,
@@ -40,7 +40,7 @@ const atletas = [
         "foto": "https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/lmusmqtktq8slg9yl1xj"
     },
     {
-        "id": 1,
+        "id": 5,
         "nome": "Usain Bolt",
         "pais": "Jamaica",
         "idade": 34,
@@ -50,7 +50,7 @@ const atletas = [
         "foto": "https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/lmusmqtktq8slg9yl1xj"
     },
     {
-        "id": 1,
+        "id": 6,
         "nome": "Usain Bolt",
         "pais": "Jamaica",
         "idade": 34,
@@ -60,7 +60,7 @@ const atletas = [
         "foto": "https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/lmusmqtktq8slg9yl1xj"
     },
     {
-        "id": 1,
+        "id": 7,
         "nome": "Usain Bolt",
         "pais": "Jamaica",
         "idade": 34,
@@ -70,7 +70,7 @@ const atletas = [
         "foto": "https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/lmusmqtktq8slg9yl1xj"
     },
     {
-        "id": 1,
+        "id": 8,
         "nome": "Usain Bolt",
         "pais": "Jamaica",
         "idade": 34,
@@ -80,7 +80,7 @@ const atletas = [
         "foto": "https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/lmusmqtktq8slg9yl1xj"
     },
     {
-        "id": 1,
+        "id": 9,
         "nome": "Usain Bolt",
         "pais": "Jamaica",
         "idade": 34,
@@ -97,7 +97,7 @@ atletas.forEach(atleta => {
     card.innerHTML = `
         <div>
             <h2>${atleta.nome}</h2>
-            <button>-</button>
+            <button onclick="excluir(${atleta.id})">-</button>
         </div>
         <img src="${atleta.foto}" alt="Foto de ${atleta.nome}">
         <p>País: ${atleta.pais}</p>
@@ -105,3 +105,7 @@ atletas.forEach(atleta => {
     `;
     main.appendChild(card);
 });
+
+function excluir(id) {
+    alert(id);
+}
