@@ -74,36 +74,32 @@ npm i express cors dotenv
 - server.js
 
 ```
-require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-
-const PORT = process.env.PORT || 3000;
-
-const rotes = require('./src/routes');
+const routes = require('./src/routes')
 
 const app = express();
-app.use(cors());
-app.use(express.json());
-app.use(rotes);
+app.use(express.json())
+app.use(cors())
+app.use(routes)
 
-app.listen(PORT, () => { console.log("API respondendo na porta " + PORT) });
+app.listen(3000, (req,res) =>{
+    console.log('Server running on port 3000') 
+})
 ```
 - ./src/routes.js
 ```
 const express = require('express');
+const routes = express.Router();
 
-const router = express.Router();
+const clientes = require('./controller/controllerclientes')
 
-const clientes = require('./controllers/clientes');
+routes.get('/clientes', clientes.read)
+routes.post('/clientes', clientes.create)
+routes.put('/clientes/:id', clientes.update)
+routes.delete('/clientes/:id', clientes.del)
 
-router.get('/', (req, res) => { return res.json("API Restaurante respondendo") });
-router.post('/clientes', clientes.create);
-router.get('/clientes', clientes.read);
-router.put('/clientes', clientes.update);
-router.delete('/clientes/:id', clientes.del);
-
-module.exports = router;
+module.exports = routes
 ```
 - ./src/clientes/controllerclientes.js
 ```
@@ -112,7 +108,7 @@ const prisma = new PrismaClient();
 
 const read = async (req, res) => {
     const clientes = await prisma.clientes.findMany();
-    return res.json(clientes);
+    return res.json(clientes)
 }
 
 const create = async (req, res) => {
@@ -120,7 +116,7 @@ const create = async (req, res) => {
     const clientes = await prisma.clientes.create({
         data: data
     });
-    return res.status(201).json(clientes).end();
+    return res.status(201).json(clientes).end()
 }
 
 const update = async (req, res) => {
@@ -130,17 +126,18 @@ const update = async (req, res) => {
         where: {
             id: parseInt(req.body.id)
         }
-    });
-    res.status(202).json(clientes).end();
+    })
+    return res.status(202).json(clientes).end()
 }
 
 const del = async (req, res) => {
-    let clientes = await prisma.clientes.delete({
+    const id = parseInt(req.params.id);
+    const clientes = await prisma.clientes.delete({
         where: {
             id: parseInt(req.params.id)
         }
     });
-    res.status(204).json(clientes).end();
+    return res.status(204).json(clientes).end()
 }
 
 module.exports = {
@@ -148,7 +145,7 @@ module.exports = {
     create,
     update,
     del
-};
+}
 ```
 ### testar com o insomnia
 - nodemon
