@@ -13,7 +13,7 @@
         <h1>Atletas</h1>
         <nav>
             <button onclick="cadastro.classList.remove('oculta')">Add</button>
-            <button>Limpar</button>
+            <button onclick="window.localStorage.removeItem('atletas');window.location.reload()">Limpar</button>
         </nav>
     </header>
     <main></main>

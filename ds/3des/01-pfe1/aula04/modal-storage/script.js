@@ -1,5 +1,8 @@
 const atletas = JSON.parse(window.localStorage.getItem('atletas'));
-
+if(atletas === null) {
+    window.localStorage.setItem('atletas', JSON.stringify([]));
+    atletas = [];
+}
 const main = document.querySelector('main');
 atletas.forEach(atleta => {
     const card = document.createElement('div');
@@ -39,4 +42,5 @@ registrar.addEventListener('submit', e => {
     };
     atletas.push(atleta);
     window.localStorage.setItem('atletas', JSON.stringify(atletas));
+    window.location.reload();
 });
