@@ -36,7 +36,9 @@ prisma init --datasource-provider mysql
 
 ### Criando os models
 ./prisma/schema.prisma
-```generator client {
+```
+
+generator client {
   provider = "prisma-client-js"
 }
 
@@ -45,12 +47,14 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Cliente {
-  id        Int     @id @default(autoincrement())
-  nome   String
-  cpf String
-  email     String
+model Clientes {
+  id    Int    @id @default(autoincrement())
+  nome  String
+  cpf   String @unique
+  email String @unique
 }
+
+
 ```
 ### Gerar o migrate para criar o banco de dados
 ```
