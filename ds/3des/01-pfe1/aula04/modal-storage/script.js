@@ -23,3 +23,20 @@ function excluir(id) {
         window.location.reload();
     }
 }
+
+const cadastro = document.querySelector('#cadastro form');
+cadastro.addEventListener('submit', e => {
+    e.preventDefault();
+    const atleta = {
+        id: atletas.length + 1,
+        nome: cadastro.nome.value,
+        pais: cadastro.pais.value,
+        idade: Number(cadastro.idade.value),
+        altura: Number(cadastro.altura.value),
+        peso: Number(cadastro.peso.value),
+        modalidade: cadastro.modalidade.value,
+        foto: cadastro.foto.value
+    };
+    atletas.push(atleta);
+    window.localStorage.setItem('atletas', JSON.stringify(atletas));
+});
