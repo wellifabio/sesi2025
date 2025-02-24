@@ -53,6 +53,7 @@ main {
 
 main div {
     max-width: 300px;
+    height: fit-content;
     background-color: var(--p1);
     color: var(--p4);
     padding: 5px;
