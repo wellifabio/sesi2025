@@ -1,4 +1,4 @@
-# Aula 3
+# Aula03 - PRISMA
 
 - Conhecimentos ORM (Object Relationship Management) Prisma
 - Aula demonstrativa
