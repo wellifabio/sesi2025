@@ -3,7 +3,7 @@
 - Conhecimentos ORM (Object Relationship Management) Prisma
 - Aula demonstrativa
 
-## PRISMA
+## ORM - PRISMA
 - Passo a passo de como iniciar um projeto com esse framework:
 
 ### Abrir o terminal:
