@@ -154,4 +154,13 @@ module.exports = {
 ### testar com o insomnia
 - nodemon
 
+## Atividade
+Acrescentar uma tabela de comidas no schema.prisma e criar um CRUD para ela.
+- Campos: id, nome, preco
+
+## Atividade 2
+Criar duas UI uma para Cliente e outra para Comida/Cardápio, a de clientes em formado de tabela e a de cardápio em cards.
+- As duas com modais para cadastro que aprendemos em front-end.
+- O cardápio acrescente também uma foto do prato, lembre-se de acrescentar o campo no schema.prisma.
+
 Link: https://forms.gle/srjm6Z7gXsxZXFGW6
