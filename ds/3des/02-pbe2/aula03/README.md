@@ -1,12 +1,12 @@
 # Aula 3
 
-- Conhecimentos Framework Prisma
+- Conhecimentos ORM (Object Relationship Management) Prisma
 - Aula demonstrativa
 
 ## PRISMA
 - Passo a passo de como iniciar um projeto com esse framework:
 
-### Abrir o terminar:
+### Abrir o terminal:
 - Navegar até a pasta API do seu projeto.
 - Instalar o prima globalmente.
 ```
