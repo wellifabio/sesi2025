@@ -15,7 +15,7 @@ npm i prisma -g
 - Em uma pasta chamada ./back ou ./api inicie o projeto e pressione enter até o fim.
 ```
 cd back
-npm init
+npm init -y
 npm i express cors dotenv
 ```
 ### Iniciando o prisma com mysql
