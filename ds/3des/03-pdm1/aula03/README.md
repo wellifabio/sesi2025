@@ -11,4 +11,4 @@
 - Para instalar o Flutter SDK, siga os passos no site oficial do Flutter: https://flutter.dev/docs/get-started/install
     - Baixe no windows o arquivo .zip de instalação e descompacte em c:
     - Adicione o caminho da pasta bin do flutter no PATH do sistema c:\flutter\bin
-    - O Android Studio, basta instalar e adicionar o plugin do Flutter.
+    - O Android Studio, basta baixar, instalar tradicionamlente [Next, Next, Finish] e adicionar o plugin do Flutter.
