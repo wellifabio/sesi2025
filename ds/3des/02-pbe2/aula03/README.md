@@ -162,5 +162,5 @@ Acrescentar uma tabela de comidas no schema.prisma e criar um CRUD para ela.
 Criar duas UI uma para Cliente e outra para Comida/Cardápio, a de clientes em formado de tabela e a de cardápio em cards.
 - As duas com modais para cadastro que aprendemos em front-end.
 - O cardápio acrescente também uma foto do prato, lembre-se de acrescentar o campo no schema.prisma.
-
+- Para entrega basta fazer commit e push no repositório do github, o link já foi enviado no formulário de entrega.
 Link: https://forms.gle/srjm6Z7gXsxZXFGW6
