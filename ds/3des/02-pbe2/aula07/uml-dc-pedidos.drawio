@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.1.3">
+  <diagram name="Página-1" id="Hh5owRN5N5kEoJFUcCsr">
+    <mxGraphModel dx="1195" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aCr1AIz1ZkI9zQHZeJ2G-1" value="UML (Unified Modeling Language)&lt;div&gt;DC (Diagrama de Classe)&lt;/div&gt;&lt;div&gt;Projeto: Gof Pedidos&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="299" y="40" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aCr1AIz1ZkI9zQHZeJ2G-2" value="&lt;div&gt;&lt;b&gt;Exemplos:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Pattern de Criação:Buillder&lt;/div&gt;&lt;div&gt;Patterns de Comportamento: Composite&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="299" y="110" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aCr1AIz1ZkI9zQHZeJ2G-3" value="Item" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="470" y="200" width="160" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="aCr1AIz1ZkI9zQHZeJ2G-4" value="+ id: int;&lt;div&gt;+ produto: String;&lt;/div&gt;&lt;div&gt;+ quantidade: int;&lt;/div&gt;&lt;div&gt;+ preco: double;&lt;/div&gt;&lt;div&gt;+ subTotal: double?;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="aCr1AIz1ZkI9zQHZeJ2G-3">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="aCr1AIz1ZkI9zQHZeJ2G-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="aCr1AIz1ZkI9zQHZeJ2G-3">
+          <mxGeometry y="110" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="aCr1AIz1ZkI9zQHZeJ2G-6" value="+ calcSubtotal(): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="aCr1AIz1ZkI9zQHZeJ2G-3">
+          <mxGeometry y="118" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="aCr1AIz1ZkI9zQHZeJ2G-7" value="Pedido" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="200" y="210" width="160" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="aCr1AIz1ZkI9zQHZeJ2G-8" value="+ id: int;&lt;div&gt;+ cliente: String;&lt;/div&gt;&lt;div&gt;+ itens: Item[];&lt;/div&gt;&lt;div&gt;+ data: Date;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="aCr1AIz1ZkI9zQHZeJ2G-7">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="aCr1AIz1ZkI9zQHZeJ2G-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="aCr1AIz1ZkI9zQHZeJ2G-7">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="aCr1AIz1ZkI9zQHZeJ2G-11" value="1..*" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aCr1AIz1ZkI9zQHZeJ2G-8" target="aCr1AIz1ZkI9zQHZeJ2G-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="250" y="290" as="sourcePoint" />
+            <mxPoint x="410" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,38 @@
+@import url('./style.css');
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+
+    & th{
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid var(--cor1);
+        background-color: var(--cor5);
+        color: var(--cor1);
+    }
+
+    & td{
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid var(--cor1);
+        color: var(--cor1);
+    }
+
+    & tr:nth-child(even){
+        background-color: var(--cor3);
+    }
+    & tr:nth-child(odd){
+        background-color: var(--cor4);
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    table{
+        & td{
+            border:none;
+        }
+    }
+}

@@ -1,0 +1,85 @@
+@import url(./style.css);
+
+main {
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    max-height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--cor5);
+    overflow-y: auto;
+    overflow-x: hidden;
+    gap: 10px;
+}
+
+table {
+    width: 100%;
+    height: fit-content;
+    border-collapse: collapse;
+}
+
+th {
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    background-color: var(--cor3);
+    color: var(--cor1);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* tabela zebrada */
+tr:nth-child(even) {
+    background-color: var(--cor5);
+}
+
+tr:nth-child(odd) {
+    background-color: var(--cor4);
+}
+
+.resultado {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0px 0px 10px var(--cor1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    th {
+        display: none;
+    }
+
+    tr {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid var(--cor1);
+    }
+
+    td {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+    }
+
+    td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    h2{
+        font-size: 1.2rem;
+    }
+}

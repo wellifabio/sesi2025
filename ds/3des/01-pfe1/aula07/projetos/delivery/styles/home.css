@@ -1,0 +1,135 @@
+@import url(./style.css);
+
+section {
+    width: 100%;
+    max-width: 900px;
+    padding: 10px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor3);
+    box-shadow: 0 0 5px var(--cor1);
+    border-radius: 5px;
+}
+
+main {
+    width: 100%;
+    max-width: 900px;
+    height: fit-content;
+    height: 55%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: left;
+    background-color: var(--cor5);
+    overflow-y: auto;
+    overflow-x: hidden;
+    gap: 10px;
+}
+
+form {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: "img form";
+    gap: 5px;
+
+    & input,
+    select,
+    textarea,
+    button {
+        max-width: 95%;
+        height: fit-content;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+}
+
+.cards1,
+.cards2 {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cards1 {
+    & .card {
+        background-color: var(--cor1);
+        color: var(--cor5);
+    }
+}
+
+.cards2 {
+    & .card {
+        background-color: var(--cor2);
+        color: var(--cor5);
+    }
+}
+
+
+.card {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--cor1);
+    color: var(--cor5);
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--cor1);
+    & img{
+        max-width: 70px;
+        margin: 10px;
+    }
+}
+
+.card-infos {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-botoes {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & button {
+        padding: 5px 5px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    main {
+        grid-template-columns: 100%;
+        grid-template-areas: "form" "img";
+    }
+
+      .cards1,
+    .cards2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+
+    button{
+        font-size: 1rem;
+    }
+}

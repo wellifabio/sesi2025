@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Médica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Clínica Médica</h1>
+    </header>
+    <div class="container">
+        <input type="text" id="nome" placeholder="Digite o seu nome: " required>
+        <input type="text" id="cpf" placeholder="Digite o seu cpf: " required>
+        <input type="date" id="nascimento" placeholder="Digite a sua data de nascimento" required>
+        <button onclick="cadastrar()">CADASTRAR</button>
+        <p id="resultado0"></p>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>CPF</th>
+                <th>Data de Nascimento</th>
+                <th>Excluir</th>
+            </tr>
+        </thead>
+        <tbody id="clientes">
+            <!-- Lista de pacientes -->
+        </tbody>
+    </table>
+</body>
+<script src="script.js"></script>
+
+</html>

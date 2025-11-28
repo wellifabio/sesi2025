@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanchonete Delivery</title>
+    <link rel="stylesheet" href="../styles/pedidos.css">
+</head>
+<body>
+    <header>
+        <h1>Lanchonete Delivery</h1>
+        <button onclick="window.location.href='./home.html'">Voltar</button>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Cliente</th>
+                    <th>Endereço</th>
+                    <th>Produto</th>
+                    <th>Data</th>
+                    <th>Entrega</th>
+                    <th>Conclusão</th>
+                    <th>Valor</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody id="pedidos-concluidos">
+                <!-- Os pedidos concluídos serão inseridos aqui pelo JavaScript -->
+            </tbody>
+        </table>
+        <div class="resultado">
+            <h2>Faturamento total R$ <label id="total"></label> </h2>
+        </div>
+    </main>
+    <footer>
+        <h2>By wellifabio&#174;</h2>
+    </footer>
+</body>
+<script src="../scripts/pedidos.js"></script>
+</html>

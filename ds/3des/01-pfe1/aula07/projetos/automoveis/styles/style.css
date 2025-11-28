@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+:root {
+    --cor1: #003366;
+    --cor2: #006699;
+    --cor3: #0099CC;
+    --cor4: #d0f6ff;
+    --cor5: #FFFFFF;
+    --transp1: rgba(0, 0, 0, 0.8);
+    --transp2: rgba(255, 255, 255, 0.8);
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor1);
+    color: var(--cor5);
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header, footer{
+    width: 100%;
+    height: 7vh;
+    background-color: var(--cor2);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 5px var(--cor4);
+}
+
+button{
+    background-color: var(--cor2);
+    color: var(--cor5);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: var(--cor3);
+}
+
+.modal{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--transp1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--cor4);
+    translate: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.imagem{
+    width: 100%;
+    max-width: 100px;
+    border-radius: 50px;
+}
+
+.janela{
+    width: fit-content;
+    height: fit-content;
+    max-width: 800px;
+    max-height: 750px;
+    background-color: var(--cor5);
+    color: var(--cor1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--cor4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    & div{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    & img{
+        width: 100%;
+        max-width: 600px;
+    }
+}
+
+.oculto{
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .janela{
+        width: 100%;
+    }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boblioteca ACME</title>
+    <link rel="stylesheet" href="../styles/home.css">
+    <link rel="shortcut icon" href="../assets/livro.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Biblioteca ACME</h1>
+        <form>
+            <input type="text" name="busca" placeholder="Buscar livros">
+            <button type="submit">Buscar</button>
+        </form>
+        <button onclick="window.location.href='./locacoes.html'">Locacoes</button>
+    </header>
+    <main>
+    </main>
+    <footer>
+        <h2>By Nome do Programador</h2>
+    </footer>
+    <section id="detalhes" class="modal oculto">
+        <div class="janela">
+            <div>
+                <h2 id="titulo">Livro</h2>
+                <button onclick="window.location.reload()">X</button>
+            </div>
+            <div>
+                <div>
+                    <img src="../assets/livro.png" alt="Ilustração">
+                </div>
+                <div>
+                    <h3>Id <label id="id"></label></h3>
+                    <p><b>Autor </b> <label id="autor"></label></p>
+                    <p><b>Ano</b> <label id="ano"></label></p>
+                    <p><b>Editora</b> <label id="editora"></label></p>
+                    <p><b>Gênero</b> <label id="genero"></label></p>
+                    <p><b>Descrição</b></p>
+                    <labe id="descricao"l></label>
+                </div>
+            </div>
+            <button id="locar">Locar</button>
+        </div>
+    </section>
+    <section id="locacao" class="modal oculto">
+        <div class="janela">
+            <div>
+                <h2>Cadastro de locação de livro</h2>
+                <button onclick="window.location.reload()">X</button>
+            </div>
+            <form>
+                <label for="livro">Livro</label>
+                <input type="text" id="livro" name="livro" disabled required>
+
+                <label for="leitor">Leitor</label>
+                <input type="text" id="leitor" name="leitor" required>
+
+                <label for="cpf">CPF</label>
+                <input type="text" id="cpf" name="cpf" required>
+
+                <label for="data">Data da retirada</label>
+                <input type="date" id="data" name="data" required>
+
+                <label for="previsao">Previsão de devolução</label>
+                <input type="date" id="previsao" name="previsao">
+
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </section>
+</body>
+<script src="../scripts/home.js"></script>
+</html>

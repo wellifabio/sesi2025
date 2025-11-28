@@ -1,0 +1,52 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model login {
+  id    Int    @id @default(autoincrement())
+  cpf   String @unique
+  senha String @db.VarChar(255)
+}
+
+model gerenciamentocaixa {
+  id            Int      @id @default(autoincrement())
+  dataOperacao  String
+  tipoOperacao  String   @db.VarChar(100)
+  meioPagamento String   @db.VarChar(100)
+  valor         Float
+}
+
+model cliente {
+  id       Int     @id @default(autoincrement())
+  nome     String  @db.VarChar(100)
+  cpf      String  @unique
+  cnpj     String? @db.VarChar(100)
+  email    String  @unique
+  telefone String  @unique
+  endereco String  @db.VarChar(255)
+}
+
+model proposta {
+  id        Int      @id @default(autoincrement())
+  numero    Int
+  data      DateTime @db.Date
+  descricao String   @db.VarChar(252)
+  status    String   @db.VarChar(100)
+}
+
+model produtos {
+  id          Int     @id @default(autoincrement())
+  nome        String  @db.VarChar(100)
+  precovenda  Float
+  precocompra Float
+  estoque     Int
+  marca       String  @db.VarChar(100)
+  quantidade  Int
+  categoria   String  @db.VarChar(100)
+  imagem      String? @db.VarChar(255)
+}

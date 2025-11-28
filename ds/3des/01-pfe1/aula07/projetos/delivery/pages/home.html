@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanchonete Delivery</title>
+    <link rel="stylesheet" href="../styles/home.css">
+    <link rel="shortcut icon" href="../assets/icone.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Lanchonete Delivery</h1>
+        <button onclick="window.location.href='./pedidos.html'">Concluídos</button>
+    </header>
+    <section id="Cadastro">
+        <form>
+            <label for="cliente">Cliente:</label>
+            <input type="text" placeholder="Digite o nome do cliente" name="cliente" required>
+            <label for="endereco">Endereço:</label>
+            <input type="text" placeholder="Digite o endereço do cliente" name="endereco" required>
+            <label for="produto">Produto:</label>
+            <select name="produto"></select>
+            <label for="ingredientes">Ingredientes:</label>
+            <textarea name="ingredientes"></textarea>
+            <button>Gerar Pedido</button>
+            <input type="text" name="data" disabled>
+        </form>
+    </section>
+    <main>
+        <div>
+            <h2>Em execução</h2>
+            <div class="cards1"></div>
+        </div>
+        <div>
+            <h2>A caminho</h2>
+            <div class="cards2"></div>
+        </div>
+    </main>
+    <footer>
+        <h2>By wellifabio&#174;</h2>
+    </footer>
+</body>
+<script src="../scripts/home.js"></script>
+
+</html>

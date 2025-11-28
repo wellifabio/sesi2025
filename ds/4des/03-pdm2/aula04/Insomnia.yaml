@@ -1,0 +1,316 @@
+type: collection.insomnia.rest/5.0
+name: Scratch Pad
+meta:
+  id: wrk_scratchpad
+  created: 1740747688230
+  modified: 1740747688230
+  description: ""
+collection:
+  - name: dummyjson.com
+    meta:
+      id: fld_de24bd1eb6fe45ca8888f9a5522e0071
+      created: 1753097349572
+      modified: 1753097349572
+      sortKey: -1753097349572
+      description: ""
+  - name: placeholder
+    meta:
+      id: fld_9c212f0d946d45bdb7d5234c67d674d8
+      created: 1753103174841
+      modified: 1753103174841
+      sortKey: -1751457178882
+      description: ""
+  - name: 1sem2025
+    meta:
+      id: fld_91be4fd156f64e5bb0535102633296cf
+      created: 1753871932642
+      modified: 1753871946840
+      sortKey: -1753871932642
+      description: ""
+    children:
+      - name: PetShop
+        meta:
+          id: fld_248fc3947a144ad3a52dfaa4e1152137
+          created: 1742910480758
+          modified: 1753872085825
+          sortKey: -1753871943650
+          description: ""
+        scripts:
+          afterResponse: ""
+          preRequest: ""
+      - name: Escola
+        meta:
+          id: fld_be277afa7b954feaa5eee88e150abb32
+          created: 1744220477468
+          modified: 1753872015842
+          sortKey: -1753871943450
+          description: ""
+        scripts:
+          afterResponse: ""
+          preRequest: ""
+      - name: Pizzaria
+        meta:
+          id: fld_36e01b343df24a69bf7f84beeddd77cf
+          created: 1744715501812
+          modified: 1753872009672
+          sortKey: -1753871943250
+          description: ""
+        scripts:
+          afterResponse: ""
+          preRequest: ""
+      - name: Pedidos Patterns
+        meta:
+          id: fld_bee73c0cc8f34971ab87bf3feca2e535
+          created: 1745930542373
+          modified: 1753872004346
+          sortKey: -1753871943150
+          description: ""
+        scripts:
+          afterResponse: ""
+          preRequest: ""
+      - name: app88taxi
+        meta:
+          id: fld_6a7ad610eb324ca983538da71518e6b0
+          created: 1746622072098
+          modified: 1753902965087
+          sortKey: -1753871943050
+          description: ""
+        scripts:
+          afterResponse: ""
+          preRequest: ""
+      - name: Login
+        meta:
+          id: fld_af1cf9084a5d421da08355a03c05129c
+          created: 1749215447450
+          modified: 1753871948193
+          sortKey: -1753871942950
+          description: ""
+        scripts:
+          afterResponse: ""
+          preRequest: ""
+      - name: pessportal
+        meta:
+          id: fld_f88f36eed1864777a1e5ffbc36f1088a
+          created: 1749817008191
+          modified: 1755278051335
+          sortKey: -1753871943750
+          description: ""
+      - name: pesslacamentos
+        meta:
+          id: fld_1c68fdb897de4ab58fd661ce6ecd90d8
+          created: 1750166015306
+          modified: 1753871942891
+          sortKey: -1753871942850
+          description: ""
+        scripts:
+          afterResponse: ""
+          preRequest: ""
+    scripts:
+      afterResponse: ""
+      preRequest: ""
+  - name: safeedu-online
+    meta:
+      id: fld_8f41f930bded405c980b83e1ab6d6fc3
+      created: 1753904464413
+      modified: 1753904464413
+      sortKey: -1753904464413
+      description: ""
+    scripts:
+      afterResponse: ""
+      preRequest: ""
+  - name: Estacionamento
+    meta:
+      id: fld_408919e76e644da4a44678cb512f51a9
+      created: 1755278145250
+      modified: 1755278145250
+      sortKey: -1755278145250
+      description: ""
+    children:
+      - name: Veiculo
+        meta:
+          id: fld_10b39c1b925647aba60f66bc959c00f9
+          created: 1755278153648
+          modified: 1755278157379
+          sortKey: -1755278153648
+          description: ""
+  - name: Receitas-b-2025
+    meta:
+      id: fld_f88c8ced37c34cd29f42131ac7115f82
+      created: 1756732301763
+      modified: 1756732301763
+      sortKey: -1756732301763
+      description: ""
+    children:
+      - name: Receitas
+        meta:
+          id: fld_8ab81984925f48ff8ed65d23cc473870
+          created: 1756732340402
+          modified: 1756732340402
+          sortKey: -1756732340402
+          description: ""
+        children:
+          - url: https://receitasapi-b-2025.vercel.app/receitas
+            name: READ
+            meta:
+              id: req_6651ec2e046945069fcb0e79e74ed126
+              created: 1756732348527
+              modified: 1756732361692
+              isPrivate: false
+              description: ""
+              sortKey: -1756732353645
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.4.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://receitasapi-b-2025.vercel.app/receitas
+            name: CREATE
+            meta:
+              id: req_714259006b2444dbb3c5fd55a598cdd2
+              created: 1756735311165
+              modified: 1756735418510
+              isPrivate: false
+              description: ""
+              sortKey: -1756732330209.5
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"nome":"Ovo cozido",
+                	"tipo":"SALGADA",
+                	"ingredientes":"Um ovo",
+                	"modoFazer":"Ferva a água e bote o ovo"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/11.4.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://receitasapi-b-2025.vercel.app/receitas/1
+            name: UPDATE
+            meta:
+              id: req_e54cd7045ef64e84b7b5bafa1c60a358
+              created: 1756736714326
+              modified: 1756736848713
+              isPrivate: false
+              description: ""
+              sortKey: -1756732318491.75
+            method: PUT
+            body:
+              mimeType: application/json
+              text: >-
+                {
+                	"nome":"Ovos cozidos",
+                	"tipo":"SALGADA",
+                	"ingredientes":"Dois ovos",
+                	"modoFazer":"Ferva a água e bote os ovos",
+                	"img":"https://images.ctfassets.net/qfxflpv0atz9/1pBF9W9LVZJuaUlkuYbY4w/e48f43e2b7bd4a11c0cd70560d56f796/ovocozido-imgdestacada.jpg",
+                	"custoAproximado":3
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/11.4.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://receitasapi-b-2025.vercel.app/receitas/2
+            name: DELETE
+            meta:
+              id: req_e7de65ad98d4475cabf9dcbd7dec9d1b
+              created: 1756736863763
+              modified: 1756736871057
+              isPrivate: false
+              description: ""
+              sortKey: -1756732312632.875
+            method: DELETE
+            headers:
+              - name: User-Agent
+                value: insomnia/11.4.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - url: https://receitasapi-b-2025.vercel.app/
+        name: TESTE
+        meta:
+          id: req_a9f7cb310ed0437d96e740417645f8a4
+          created: 1756732305257
+          modified: 1756732320428
+          isPrivate: false
+          description: ""
+          sortKey: -1756732306774
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.4.0
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1740747698883
+    modified: 1753445624242
+  cookies:
+    - key: accessToken
+      value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTM0NDU2MjQsImV4cCI6MTc1MzQ0NTY4NH0.oX8vDJSX8XmZTpP5_gA0_uFU50iv_r3bgSgGdFMAba8
+      maxAge: 60
+      domain: dummyjson.com
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: true
+      creation: 2025-07-21T11:32:13.611Z
+      lastAccessed: 2025-07-25T12:13:44.242Z
+      id: 9b286ebf-5f4a-4778-a956-e2c9222a23aa
+    - key: refreshToken
+      value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTM0NDU2MjQsImV4cCI6MTc1NjAzNzYyNH0.9ufk7JL3DoW76fgrbE0jN-R43peNFhctTEpBt33kf3U
+      maxAge: 60
+      domain: dummyjson.com
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: true
+      creation: 2025-07-21T11:32:13.613Z
+      lastAccessed: 2025-07-25T12:13:44.242Z
+      id: 9f8a406d-bee2-4b7a-ad9a-25494370667f
+environments:
+  name: Base Environment
+  meta:
+    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1740747698766
+    modified: 1740747698766
+    isPrivate: false

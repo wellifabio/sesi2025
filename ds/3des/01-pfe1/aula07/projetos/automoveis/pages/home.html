@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locadora ACME</title>
+    <link rel="stylesheet" href="../styles/home.css">
+    <link rel="shortcut icon" href="../assets/icone.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Locadora ACME</h1>
+        <button onclick="window.location.href='./locacoes.html'">Locações</button>
+    </header>
+    <main></main>
+    <footer>
+        <h2>By wellifabio&#174;</h2>
+    </footer>
+    <section id="det" class="modal oculto">
+        <div class="janela">
+            <div>
+                <h2></h2>
+                <button onclick="window.location.reload()">x</button>
+            </div>
+            <img alt="Imagem do veículo">
+            <div class="marca"></div>
+            <div class="ano"></div>
+            <div class="combustivel"></div>
+            <div class="portas"></div>
+            <div class="transmissao"></div>
+            <div class="cor"></div>
+            <div class="valor_diaria"></div>
+            <div><button class="locar">Locar</button></div>
+        </div>
+    </section>
+    <section id="cad" class="modal oculto">
+        <div class="janela">
+            <div>
+                <h2>Cadastro de locação</h2>
+                <button onclick="window.location.reload()">x</button>
+            </div>
+            <form>
+                <label for="imagem">Imagem:</label>
+                <img class="imagem" alt="Imagem do veículo">
+                <label for="carroId">Id do veículo:</label>
+                <input type="text" name="carroId" disabled required>
+                <label for="modelo">Modelo:</label>
+                <input type="text" name="modelo" disabled required>
+                <label for="valor_diaria">Valor diária:</label>
+                <input type="number" step="0.01" name="valor_diaria" disabled required>
+                <label for="cliente">Cliente:</label>
+                <input type="text" name="cliente" placeholder="Nome do cliente" required>
+                <label for="cpf">CPF somente números:</label>
+                <input type="text" name="cpf" placeholder="CPF do cliente" required>
+                <label for="data_inicio">Data de início:</label>
+                <input type="date" name="data_inicio" onchange="calcTotalEstimado()" required>
+                <label for="data_previsao">Data de prevista para devolução:</label>
+                <input type="date" name="data_previsao" onchange="calcTotalEstimado()" required>
+                <label for="total_estimado">Total estimado</label>
+                <input type="number" step="0.01" name="total_estimado" disabled required>
+                <label>Após "Confirmar" a chave estará disponível na expedição.</label>
+                <button type="submit" class="confirmar">Confirmar Locação</button>
+            </form>
+        </div>
+
+    </section>
+</body>
+<script src="../scripts/home.js"></script>
+
+</html>

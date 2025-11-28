@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Título</h1>
+    </header>
+    <main>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <section>
+        </section>
+    </main>
+    <footer>
+        <h2>By Wellington</h2>
+    </footer>
+</body>
+<script>
+    const section = document.querySelector('section');
+    for(i=0; i<25; i++){
+        const card = `
+            <div class="card">
+                <h2>Card 1</h2>
+                <img src="./assets/img.jpg" alt="Imagem">   
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>`;
+        section.innerHTML += card;
+    }
+</script>
+</html>

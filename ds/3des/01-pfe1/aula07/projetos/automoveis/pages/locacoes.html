@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locadora ACME</title>
+    <link rel="stylesheet" href="../styles/locacoes.css">
+    <link rel="shortcut icon" href="../assets/icone.jpg" type="image/x-icon">
+</head>
+<body onload="preencherTabela()">
+    <header>
+        <h1>Locadora ACME</h1>
+        <button onclick="window.location.href='./home.html'">Voltar</button>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Veículo</th>
+                    <th>Cliente</th>
+                    <th>CPF</th>
+                    <th>Data Início</th>
+                    <th>Data Prevista</th>
+                    <th>Entrega</th>
+                    <th>Valor Previsto</th>
+                    <th>Valor Final</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody id="locacoes-concluidas">
+                <!-- As locações serão inseridos aqui por JavaScript -->
+            </tbody>
+        </table>
+        <div class="resultado">
+            <h2>Faturamento total R$ <label id="total"></label> </h2>
+        </div>
+    </main>
+    <footer>
+        <h2>By wellifabio&#174;</h2>
+    </footer>
+</body>
+<script src="../scripts/locacoes.js"></script>
+</html>

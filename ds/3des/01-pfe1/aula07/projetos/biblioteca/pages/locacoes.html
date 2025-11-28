@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boblioteca ACME</title>
+    <link rel="stylesheet" href="../styles/locacoes.css">
+    <link rel="shortcut icon" href="../assets/livro.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Biblioteca ACME</h1>
+        <form>
+            <input type="text" name="filtro" placeholder="Filtrar Locações">
+            <button type="submit">Filtrar</button>
+        </form>
+        <button onclick="window.location.href='./home.html'">Livros</button>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Livro</th>
+                    <th>Leitor</th>
+                    <th>CPF</th>
+                    <th>Data</th>
+                    <th>Previsão</th>
+                    <th>Devolução</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+    <footer>
+        <h2>By Nome do Programador</h2>
+    </footer>
+</body>
+<script src="../scripts/locacoes.js"></script>
+</html>

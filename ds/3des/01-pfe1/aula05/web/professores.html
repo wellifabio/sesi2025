@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Professores</h1>
+        <div class="container">
+            <a href="alunos.html">Alunos</a>
+            <a href="disciplinas.html">Disciplinas</a>
+            <a href="professores.html">Professores</a>
+            <a href="turmas.html">Turmas</a>
+
+        </div>
+    </header>
+
+    <main>
+        
+        <container class="cadastro">
+            <button id="abrirModal">Novo Professor</button>
+        </container>
+        <div id="meuModal" class="modal">
+            <div class="modal-conteudo">
+                <span class="fechar">&times;</span>
+                <h3>Cadastre um Professor</h3>
+                <input type="text" placeholder="Nome" name="nome">
+                <input type="text" placeholder="Especialidades" name="especialidades">
+                <input type="text" placeholder="Disciplinas" name="disciplinas">
+                <input type="submit" value="Cadastrar">
+            </div>
+        </div>
+
+        <container class="apresentarprofessores">
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>Especialidades</th>
+                    <th>Disciplinas</th>
+                    <th>Ações</th>
+                </tr>
+                <tr>
+                    <td>João</td>
+                    <td>10/04/2000</td>
+                    <td>1</td>
+                    <td>
+                        <a href="editar.html">Editar</a>
+                        <a href="excluir.html">Excluir</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>João</td>
+                    <td>10/04/2000</td>
+                    <td>1</td>
+                    <td>
+                        <a href="editar.html">Editar</a>
+                        <a href="excluir.html">Excluir</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>João</td>
+                    <td>10/04/2000</td>
+                    <td>1</td>
+                    <td>
+                        <a href="editar.html">Editar</a>
+                        <a href="excluir.html">Excluir</a>
+                    </td>
+                </tr>
+            </table>
+        </container>
+    </main>
+    <footer>
+        <p>Desenvolvido por: Lucas Paiva
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
