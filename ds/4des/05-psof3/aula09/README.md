@@ -74,7 +74,7 @@ Nesta sprint, vamos focar na implantação do projeto, garantindo que tudo estej
     - Wireframe (Figma do Mobile e ou do Web)
     - Mockup (Se tiver algum JSON)
     - Protótipo (Link do front-end implantado)
-- **3 EAP (Estrutura Analítica do Projeto)**
+- **3 EAP (Estrutura Analítica do Projeto) Requisitos funcionais**
     - Análise de Risco (Matriz SWOT)
     - Documento de Requisitos
         - Diagrama de Caso de Uso
